@@ -1,0 +1,43 @@
+.setka-workflow-token-text {
+  width: 33em;
+  max-width: 100%; }
+
+.setka-workflow-export-table td {
+  border: 1px solid #444; }
+
+.setka-workflow-hidden {
+  display: none; }
+
+.setka-workflow-export-progress-container {
+  margin: 10px 0; }
+
+#setka-workflow-export-log {
+  color: #11a916; }
+
+#setka-workflow-export-errors {
+  color: #cc3b3b; }
+
+.setka-workflow .ui-progressbar {
+  height: 30px;
+  overflow: hidden;
+  position: relative;
+  border-radius: 3px;
+  background-color: #d4d4d4; }
+.setka-workflow .ui-progressbar-value {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  overflow: hidden;
+  background-color: #0073aa;
+  background-image: linear-gradient(-45deg, rgba(255, 255, 255, 0.2) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.2) 50%, rgba(255, 255, 255, 0.2) 75%, transparent 75%, transparent);
+  background-size: 50px 50px;
+  animation: move 2s linear infinite; }
+@keyframes move {
+  0% {
+    background-position: 0 0; }
+  100% {
+    background-position: 50px 50px; } }
+
+/*# sourceMappingURL=settings-pages.css.map */

@@ -1,0 +1,113 @@
+<div class="wrap">
+    {% include 'admin/pages/common/page-title.html.twig' %}
+
+    {% form_theme form 'admin/pages/common/checkboxes-in-fieldset.html.twig' %}
+
+    {{ form_start(form) }}
+
+    {{ form_errors(form) }}
+
+    <div>
+        <table class="form-table setka-workflow-form-table">
+            <tbody>
+            <tr>
+                <th scope="row">
+                    {{ form_label(form.token) }}
+                </th>
+                <td>
+                    {{ form_widget(form.token) }}
+                    <p class="description">{{ translations.licenseKeyEnteredCaption }}</p>
+                    {% if not form.token.vars.valid %}
+                        <div class="setka-workflow-form-errors">
+                            {{ form_errors(form.token) }}
+                        </div>
+                    {% endif %}
+                </td>
+            </tr>
+            <tr>
+                <th scope="row">
+                    {{ form_label(form.publishInWorkflow) }}
+                </th>
+                <td>
+                    <label>{{ form_widget(form.publishInWorkflow) }}{{ translations.publishInWorkflowCaption }}</label>
+                    {% if not form.publishInWorkflow.vars.valid %}
+                        <div class="setka-workflow-form-errors">
+                            {{ form_errors(form.publishInWorkflow) }}
+                        </div>
+                    {% endif %}
+                </td>
+            </tr>
+            {#<tr>
+                <th scope="row">
+                    {{ form_label(form.postTypes) }}
+                </th>
+                <td>
+                    {{ form_widget(form.postTypes) }}
+                    {% if not form.postTypes.vars.valid %}
+                        <div class="setka-workflow-form-errors">
+                            {{ form_errors(form.postTypes) }}
+                        </div>
+                    {% endif %}
+                </td>
+            </tr>#}
+            <tr>
+                <th scope="row">
+                    {{ form_label(form.postAuthorId) }}
+                </th>
+                <td>
+                    {{ form_widget(form.postAuthorId) }}
+                    <noscript>
+                        <p class="description">{{ translations.postAuthorIdCaption }}</p>
+                    </noscript>
+                    {% if not form.postAuthorId.vars.valid %}
+                        <div class="setka-workflow-form-errors">
+                            {{ form_errors(form.postAuthorId) }}
+                        </div>
+                    {% endif %}
+                </td>
+            </tr>
+            <tr>
+                <th scope="row">
+                    {{ form_label(form.exportCategoriesAutomatically) }}
+                </th>
+                <td>
+                    <p>
+                        <label>{{ form_widget(form.exportCategoriesAutomatically) }}{{ translations.exportCategoriesAutomatically }}</label>
+                    </p>
+                </td>
+            </tr>
+            <tr>
+                <th scope="row">
+                    {{ translations.exportCategoriesFromWordPressToWorkflowLabel }}
+                </th>
+                <td>
+                    <p>
+                        {{ form_widget(form.exportCategoriesFromWordPressToWorkflow) }}
+                    </p>
+                    <p>{{ translations.exportCategoriesFromWordPressToWorkflowDescription }}</p>
+
+                    <div class="setka-workflow setka-workflow-export-progress-container">
+                        <div id="setka-workflow-export-progress" class="setka-workflow-hidden"></div>
+
+                        <div id="setka-workflow-export-log" class="setka-workflow-hidden setka-workflow-export-progress-container"></div>
+                        <div id="setka-workflow-export-errors" class="setka-workflow-hidden setka-workflow-export-progress-container"></div>
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <th scope="row">
+
+                </th>
+                <td>
+                    <div>
+                        {{ form_widget(form.save) }}
+                        {{ form_widget(form.signOut) }}
+                    </div>
+                </td>
+            </tr>
+            </tbody>
+        </table>
+    </div>
+
+    {{ form_end(form) }}
+</div>

@@ -1,0 +1,212 @@
+# Copyright (C) 2018 Setka Workflow
+# This file is distributed under the same license as the Setka Workflow package.
+msgid ""
+msgstr ""
+"Project-Id-Version: Setka Workflow 1.0.3-SW-473-copyrights\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/setka-workflow\n"
+"POT-Creation-Date: 2018-01-11 11:22:28+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2018-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+
+#: source/AJAX/Actions/ExportCategoriesToWorkflow/AllCategoriesExportedViolation.php:18
+msgid ""
+"All the categories are already exported to Setka Workflow. You don’t have "
+"any new categories to export."
+msgstr ""
+
+#: source/AJAX/Actions/ExportCategoriesToWorkflow/CategoriesNotFoundViolation.php:18
+msgid "You don’t have any categories. Create new ones in Posts -> Categories."
+msgstr ""
+
+#: source/AJAX/Actions/ExportCategoriesToWorkflow/ConnectionViolation.php:18
+msgid ""
+"Oops... We couldn’t export the categories because Setka Workflow server is "
+"not available now. Please try a little bit later or contact Setka Workflow "
+"support team workflow-help@setka.io."
+msgstr ""
+
+#: source/AJAX/Actions/ExportCategoriesToWorkflow/OutdatedWordPressViolation.php:18
+msgid ""
+"Your WordPress not support this operation. Please update WordPress at least "
+"4.6 version."
+msgstr ""
+
+#: source/AJAX/Actions/ExportCategoriesToWorkflow/UnknownViolation.php:15
+msgid ""
+"Oops... Some error occurred while exporting categories. Please contact Setka "
+"Workflow support team workflow-help@setka.io."
+msgstr ""
+
+#: source/AJAX/Actions/ExportCategoriesToWorkflow/WorkflowResponseViolation.php:18
+msgid ""
+"Oops... Setka Workflow cannot receive these categories. Please contact Setka "
+"Workflow support team workflow-help@setka.io."
+msgstr ""
+
+#: source/Admin/MetaBoxes/WorkflowID/WorkflowIDMetaBox.php:67
+msgctxt "MetaBox title."
+msgid "Setka Workflow"
+msgstr ""
+
+#: source/Admin/MetaBoxes/WorkflowID/WorkflowIDMetaBox.php:119
+msgid "Enter Setka Workflow Ticket Url"
+msgstr ""
+
+#: source/Admin/MetaBoxes/WorkflowID/WorkflowIdType.php:21
+msgid "Ticket Url"
+msgstr ""
+
+#: source/Admin/Pages/General/GeneralPage.php:51
+msgid "Setka Workflow Integration"
+msgstr ""
+
+#. #-#-#-#-#  setka-workflow.pot (Setka Workflow 1.0.3-SW-473-copyrights)  #-#-#-#-#
+#. Plugin Name of the plugin/theme
+#: source/Admin/Pages/General/GeneralPage.php:52
+msgid "Setka Workflow"
+msgstr ""
+
+#: source/Admin/Pages/General/GeneralPage.php:110
+msgid ""
+"Enter Setka Workflow API license key to start working. You can take it in "
+"your <a href=\"%1$s\" target=\"_blank\">Settings</a>."
+msgstr ""
+
+#: source/Admin/Pages/General/GeneralPage.php:113
+msgid "Using the plugin you can:"
+msgstr ""
+
+#: source/Admin/Pages/General/GeneralPage.php:115
+msgid "Export post categories from WordPress to Setka Workflow,"
+msgstr ""
+
+#: source/Admin/Pages/General/GeneralPage.php:116
+msgid "Sync ticket and post statuses,"
+msgstr ""
+
+#: source/Admin/Pages/General/GeneralPage.php:117
+msgid ""
+"Create a draft of a post in WordPress from your Setka Workflow Dashboard."
+msgstr ""
+
+#: source/Admin/Pages/General/GeneralPage.php:120
+msgid "You have successfully entered API License key."
+msgstr ""
+
+#: source/Admin/Pages/General/GeneralPage.php:121
+msgid "Mark Setka Workflow ticket as done when the post is published."
+msgstr ""
+
+#: source/Admin/Pages/General/GeneralPage.php:122
+msgid "Enable JavaScript to use this control."
+msgstr ""
+
+#: source/Admin/Pages/General/GeneralPage.php:124
+msgid "Automatically export new created categories to Setka Workflow."
+msgstr ""
+
+#: source/Admin/Pages/General/GeneralPage.php:126
+#: source/Admin/Pages/General/SettingsType.php:70
+msgid "Export categories"
+msgstr ""
+
+#: source/Admin/Pages/General/GeneralPage.php:128
+msgid ""
+"By clicking this button you will start exporting WordPress Post categories "
+"to Workflow."
+msgstr ""
+
+#: source/Admin/Pages/General/GeneralPage.php:182
+msgid ""
+"Oops... Your Setka Workflow license key is not valid. Please contact Setka "
+"Workflow support team workflow-help@setka.io. Error type: %1$s."
+msgstr ""
+
+#: source/Admin/Pages/General/GeneralPage.php:191
+msgid "Error while during API request. Error type: %1$s."
+msgstr ""
+
+#: source/Admin/Pages/General/SettingsType.php:27
+#: source/Admin/Pages/General/SignInType.php:20
+msgid "API License key"
+msgstr ""
+
+#: source/Admin/Pages/General/SettingsType.php:43
+msgid "Publish posts"
+msgstr ""
+
+#: source/Admin/Pages/General/SettingsType.php:51
+msgid "Post Author"
+msgstr ""
+
+#: source/Admin/Pages/General/SettingsType.php:54
+msgctxt "dropdown select caption"
+msgid "Choose an user"
+msgstr ""
+
+#: source/Admin/Pages/General/SettingsType.php:62
+msgid "Export categories automatically"
+msgstr ""
+
+#: source/Admin/Pages/General/SettingsType.php:93
+msgctxt "Button label in settings form"
+msgid "Save"
+msgstr ""
+
+#: source/Admin/Pages/General/SettingsType.php:101
+msgctxt "Button label in settings form"
+msgid "Change API license key"
+msgstr ""
+
+#: source/Admin/Pages/General/SignInType.php:24
+msgid "Please enter API License key."
+msgstr ""
+
+#: source/Admin/Pages/General/SignInType.php:41
+msgctxt "Button label in sign in form"
+msgid "Start working with Setka Workflow"
+msgstr ""
+
+#: source/Admin/Services/AdminScriptStyles.php:118
+msgid "Oops...  Your WordPress server is not available now."
+msgstr ""
+
+#: source/Admin/Services/AdminScriptStyles.php:119
+msgid "Category created: %1$s"
+msgstr ""
+
+#: source/Admin/Services/AdminScriptStyles.php:120
+msgid "All categories have been exported."
+msgstr ""
+
+#: source/Admin/Services/PluginActionLinks.php:49
+msgctxt "Plugin action link"
+msgid "Settings"
+msgstr ""
+
+#: source/Admin/Services/PluginActionLinks.php:59
+msgctxt "Plugin action link"
+msgid "Start"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+msgid "https://workflow.setka.io/"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"Setka Workflow Integration Plugin is designed to integrate your WordPress "
+"site with Setka Workflow space."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "Native Grid LLC"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "https://setka.io/"
+msgstr ""

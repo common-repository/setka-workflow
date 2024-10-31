@@ -1,0 +1,32 @@
+{
+    "name": "setka/setka-workflow",
+    "description": "Workflow plugin for WordPress.",
+    "type": "wordpress-plugin",
+    "license": "GPL-2.0-or-later",
+    "authors": [
+        {
+            "name": "Setka Team",
+            "email": "hello@setka.io"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "setka/workflow-php-sdk": "^2.0",
+        "symfony/config": "^4.4",
+        "monolog/monolog": "^1.25",
+        "ocramius/proxy-manager": "^2.1",
+        "composer/installers": "^1.9",
+        "korobochkin/wp-kit": "^1.0"
+    },
+    "autoload": {
+        "files": [
+            "source/libraries/polyfill-mbstring/bootstrap.php"
+        ],
+        "psr-4": {
+            "Setka\\Workflow\\": "source/"
+        }
+    },
+    "require-dev": {
+        "automattic/vipwpcs": "^2.1"
+    }
+}
